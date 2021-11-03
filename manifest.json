@@ -1,0 +1,42 @@
+{
+    "manifest_version" : 3,
+    "name": "Beaker Manger",
+    "version": "1.0",
+    "description": "This extentsion creates beaker popups and noises to mess with you while you work.",
+    "icons" :{
+        "128" : "icons/StickyNotes128x128.png",
+        "48":"icons/StickyNotes48x48.png",
+        "16":"icons/StickyNotes16x16.png"
+
+    },
+    "storage" :{
+        "managed_schema" : ""
+    },
+
+   
+    "action": {
+        "default_icon" : "icons/StickyNotes16x16.png",
+        "default_popup": "",
+        "deafult_title" : ""
+    },
+
+
+    "options_page" : "",
+
+    
+
+    "permissions": [
+        "storage",
+        "tabs"
+        
+
+    ]
+
+
+
+
+
+
+
+
+}
