@@ -1,0 +1,23 @@
+
+body {
+    width: 400px;
+    height: 600px;
+    background-color: burlywood;
+    
+}
+
+
+
+a.title{
+    background-color: rgb(84, 175, 218);
+    box-sizing: border-box;
+    border-color: rgb(84, 175, 218);
+    border-style: solid;
+    color: white;
+    font-size: 20px;
+    
+    
+    text-align: center;
+    padding: 10px;
+}
+

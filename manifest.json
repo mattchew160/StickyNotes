@@ -1,42 +1,19 @@
 {
     "manifest_version" : 3,
-    "name": "Beaker Manger",
+    "name": "StickyNotes",
     "version": "1.0",
-    "description": "This extentsion creates beaker popups and noises to mess with you while you work.",
+    "description": "This extension acts like a sticky note for your chrome browser use.",
     "icons" :{
         "128" : "icons/StickyNotes128x128.png",
         "48":"icons/StickyNotes48x48.png",
         "16":"icons/StickyNotes16x16.png"
 
     },
-    "storage" :{
-        "managed_schema" : ""
-    },
-
    
     "action": {
         "default_icon" : "icons/StickyNotes16x16.png",
-        "default_popup": "",
+        "default_popup": "popup.html",
         "deafult_title" : ""
-    },
-
-
-    "options_page" : "",
-
+    }
     
-
-    "permissions": [
-        "storage",
-        "tabs"
-        
-
-    ]
-
-
-
-
-
-
-
-
 }
